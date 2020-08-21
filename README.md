@@ -2,10 +2,15 @@
 
 Copies some messages from one queue to another.
 
-## Running
+## Running Locally
 
-`python -m transfer_message args`
+`python3 -m transfer_message args < message_ids`
 
 ## Testing
 
-`nosetests3`
+`python3 setup.py test`
+
+
+## Distribution
+
+You can preview with `python3 setup.py bdist` and look at the `egg` file that is generated (it is simply zipped).
